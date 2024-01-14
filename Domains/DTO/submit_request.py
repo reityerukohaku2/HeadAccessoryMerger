@@ -1,9 +1,9 @@
-from ..Entities.model import Model
+from Entities.model import Model
 
 class SubmitRequest:
     """モデル登録リクエスト
     """
 
-    model:Model
+    _model:Model
     """モデル
     """

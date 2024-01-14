@@ -19,18 +19,18 @@ class Model:
     """モデル
     """
 
-    model_id:int
+    _model_id:int
     """モデルID
     """
     
-    model_type:ModelType
+    _model_type:ModelType
     """モデルの種類
     """
     
-    armature:Armature
+    _armature:Armature
     """アーマチュア
     """
     
-    parent_id:int
+    _parent_id:int
     """親のモデルID
     """
