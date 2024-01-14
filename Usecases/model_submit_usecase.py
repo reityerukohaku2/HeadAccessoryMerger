@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from ..Domains.DTO.submit_request import SubmitRequest
+from Domains.DTO.submit_request import SubmitRequest
 
 """
 モデル登録ユースケース
