@@ -1,0 +1,4 @@
+class Armature:
+    """アーマチュア
+    """
+    pass
