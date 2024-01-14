@@ -1,19 +1,5 @@
-from enum import auto, Enum
 from armature import Armature
-
-
-class ModelType(Enum):
-    """モデルの種類
-    """
-    
-    HUMANOID = auto()
-    """人型
-    """
-    
-    ACCESSORY = auto()
-    """アクセサリ
-    """
-
+from model_type import ModelType
 
 class Model:
     """モデル
