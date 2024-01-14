@@ -20,3 +20,11 @@ class Model:
     _parent_id:int
     """親のモデルID
     """
+    
+    def get_model_type(self) -> ModelType:
+        """モデルタイプのゲッター
+
+        Returns:
+            ModelType: モデルの種類
+        """
+        return self._model_type
