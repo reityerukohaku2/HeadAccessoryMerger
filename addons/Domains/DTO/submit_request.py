@@ -18,6 +18,11 @@ class SubmitRequest:
     """実行ボタン
     """
     
+    def __init__(self, model:Model, task_status:TaskStatus, execution_button:ExecutionButton) -> None:
+        self._model = model
+        self._task_status = task_status
+        self._execution_button = execution_button
+    
     def get_model(self) -> Model:
         """モデルのゲッター
 
