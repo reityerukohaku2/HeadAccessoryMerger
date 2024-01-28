@@ -1,4 +1,5 @@
 import bpy
+from ...Controller.model_controller import ModelController
 
 class AccessoryMergerPanel(bpy.types.Panel):
     """HeadAccessoryMergerパネル"""
@@ -18,4 +19,6 @@ class AccessoryMergerPanel(bpy.types.Panel):
         # オブジェクト選択メニューを作成
         layout.prop_search(context.scene, "humanoid", context.scene, "objects", text="人型モデル")
         layout.prop_search(context.scene, "accessory", context.scene, "objects", text="アクセサリー")
+        
+        ModelController.PostSubmitRequest()
 
